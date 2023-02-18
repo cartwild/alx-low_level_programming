@@ -2,7 +2,8 @@
 /**
 * main - Entry point
 *
-* Description: Prints the alphabet in lowercase
+* Description: This program prints all numbers of base64 in lowercase using
+* only the `putchar` function and only 3 times.
 *
 * Return: Always 0 (Success)
 */
