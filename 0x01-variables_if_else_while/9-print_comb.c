@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
-* main function
-* Description: prints all combination of sigle digit
-* You can only use `putchar` up to four times.
-* Return: 0
+* main - Entry point
+*
+* Description: prints all combination if single digit 
+*
+* Return: Always 0 (success)
 */
 int main(void)
 {
@@ -18,6 +19,5 @@ putchar(32);
 }
 i++;
 }
-putchar('\n');
 return (0);
 }
