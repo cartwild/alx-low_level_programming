@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main function
-* Program print all combinations of single digits
+* Description: prints all combination of sigle digit
 * You can only use `putchar` up to four times.
 * Return: 0
 */
