@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
-* main - main block
-* Description: print all combinations of single digits
-* You can only use `putchar` to print 
+* main function
+* Program print all combinations of single digits
 * You can only use `putchar` up to four times.
-* You are not allowed to use variable of type `char`
 * Return: 0
 */
 int main(void)
@@ -19,7 +17,6 @@ putchar(44);
 putchar(32);
 }
 i++;
-}
 putchar('\n');
 return (0);
 }
