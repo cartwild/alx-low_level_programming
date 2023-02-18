@@ -2,22 +2,21 @@
 /**
 * main - Entry point
 *
-* Description: prints all combination if single digit 
-*
-* Return: Always 0 (success)
+* Return: Always 0 (Success/correct)
 */
 int main(void)
 {
-int i = 0;
-while (i < 10)
+int number;
+for (number = 48; number <= 57; number++)
 {
-putchar(i + '0');
-if (i < 9)
+putchar(number);
+if (number == 57)
 {
-putchar(44);
-putchar(32);
+break;
 }
-i++;
+putchar(',');
+putchar (' ');
 }
+putchar('\n');
 return (0);
 }
