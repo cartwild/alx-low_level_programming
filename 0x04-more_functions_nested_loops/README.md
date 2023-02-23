@@ -17,6 +17,7 @@ File	Prototype
 8-print_square.c	void print_square(int size);
 10-print_triangle.c	void print_triangle(int size);
 101-print_number.c	void print_number(int n);
+
 Tasks 📃
 
 0. isupper
